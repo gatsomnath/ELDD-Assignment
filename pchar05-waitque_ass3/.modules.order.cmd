@@ -1,0 +1,1 @@
+cmd_/home/ghanshyam/Desktop/ELDD/Assignments/pchar05-waitque_ass3/modules.order := {   echo /home/ghanshyam/Desktop/ELDD/Assignments/pchar05-waitque_ass3/pchar.ko; :; } > /home/ghanshyam/Desktop/ELDD/Assignments/pchar05-waitque_ass3/modules.order

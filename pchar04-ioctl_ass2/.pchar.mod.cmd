@@ -1,0 +1,1 @@
+cmd_/home/ghanshyam/Desktop/ELDD/Assignments/pchar04-ioctl/pchar.mod := printf '%s\n'   pchar.o | awk '!x[$$0]++ { print("/home/ghanshyam/Desktop/ELDD/Assignments/pchar04-ioctl/"$$0) }' > /home/ghanshyam/Desktop/ELDD/Assignments/pchar04-ioctl/pchar.mod
