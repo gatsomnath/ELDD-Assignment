@@ -1,0 +1,1 @@
+cmd_/home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/pchar.mod := printf '%s\n'   pchar.o | awk '!x[$$0]++ { print("/home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/"$$0) }' > /home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/pchar.mod

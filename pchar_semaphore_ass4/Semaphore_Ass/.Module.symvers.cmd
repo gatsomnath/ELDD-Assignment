@@ -1,0 +1,1 @@
+cmd_/home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/Module.symvers :=  sed 's/ko$$/o/'  /home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/modules.order | scripts/mod/modpost -m -a    -o /home/ghanshyam/Desktop/ELDD_Assignments/pchar_semaphore_ass4/Module.symvers -e -i Module.symvers -T - 
