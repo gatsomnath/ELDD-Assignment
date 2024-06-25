@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/11/include",
+                "/lib/modules/6.1.10KRANTI/build/arch/x86/include",
+                "/lib/modules/6.1.10KRANTI/build/arch/x86/include/generated",
+                "/lib/modules/6.1.10KRANTI/build/include",
+                "/lib/modules/6.1.10KRANTI/build/arch/x86/include/uapi",
+                "/lib/modules/6.1.10KRANTI/build/arch/x86/include/generated/uapi",
+                "/lib/modules/6.1.10KRANTI/build/include/uapi",
+                "/lib/modules/6.1.10KRANTI/build/include/generated/uapi",
+                "/home/sunbeam/EDD",
+                "/usr/src/linux-hwe-6.5-headers-6.5.0-35//include/linux"
+            ],
+            "forcedInclude": [
+                "/usr/src/linux-hwe-6.5-headers-6.5.0-35//include/linux/compiler_types.h",
+                "/usr/src/linux-hwe-6.5-headers-6.5.0-35//include/linux/kconfig.h",
+                "/usr/src/linux-hwe-6.5-headers-6.5.0-35//include/linux/init.h",
+                "/usr/src/linux-hwe-6.5-headers-6.5.0-35//include/linux/device.h"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "CONFIG_X86_X32_ABI",
+                "CONFIG_AS_CFI=1",
+                "CONFIG_AS_CFI_SIGNAL_FRAME=1",
+                "CONFIG_AS_CFI_SECTIONS=1",
+                "CONFIG_AS_SSSE3=1",
+                "CONFIG_AS_AVX=1",
+                "CONFIG_AS_AVX2=1",
+                "CONFIG_AS_AVX512=1",
+                "CONFIG_AS_SHA1_NI=1",
+                "CONFIG_AS_SHA256_NI=1",
+                "CC_USING_FENTRY",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": [
+                "-nostdinc",
+                "-m64"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
